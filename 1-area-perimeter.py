@@ -1,0 +1,7 @@
+print("<Area & Perimeter Calculator>")
+width = input("Enter Width: ")
+height = input("Enter Height: ")
+area = float(width) * float(height)
+perimeter = 2 * float(width) + 2 * float(height)
+print("Area: ", area)
+print("Perimeter: ", perimeter)
